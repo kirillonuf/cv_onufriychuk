@@ -6,3 +6,4 @@ I want to connect my life with programming.
 `;
 
     export default about;
+    
