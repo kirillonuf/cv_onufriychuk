@@ -1,133 +1,385 @@
-.general {
-    height: 100vh;
-    width: 100vw;
-    padding: 2px;
-    .userInfo {
-        display: flex;
-        height: 85%;
-        padding: 5px;
-        .personalInfo {
-            width: 48%;
-            background: black;
-            color: white;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ @media(max-height:670px){
+
+                        
+                      
+                          //  width: 100%;
+                            height: 4vw;
+                            background: #000000;
+                            color: white;
+                    
+                         //   padding: auto;
+                          //  margin: 5px;
+                            font-size: 1.5vh;
+                            // -moz-transform: rotate(-90deg);
+                            // -ms-transform: rotate(-90deg);
+                            // -o-transform: rotate(-90deg);
+                            // -webkit-transform: rotate(-90deg);
+                        
+
+                    }
+
+
+@media (orientation: landscape) {
+    .general {
+        height: 100vh;
+        width: 100vw;
+        padding: 2px;
+        .userInfo {
+            display: flex;
+            height: 85%;
             padding: 5px;
-            .photo_name {
-                width: 100%;
-                height: 40%;
-                display: flex;
-
-                .fullName {
-                    padding: 5px ;
-                    height: 90%;
-                    width: 45%;
-                    font-size: 1.7vh;
-                   align-items: center;
-                }
-                .photo {
-                    width: 50%;
-                    height: 100%;
-
-                    img {
-                        width: 100%;
-                        height: 100%;
-
-                        object-fit: cover;
-                    }
-                }
-            }
-
-            .about {
-                width: 100%;
-                height: 30%;
-               justify-content: center;
-                //  min-height: 300px;
-                font-size: 1.2vw;
-                font-size: 1.3vh;
-            }
-
-            .separator {
-                background: white;
-                height: 3px;
-                width: 35%;
-                margin: 5px;
-            }
-
-            .contactInfo {
-                width: 100%;
-                height: 30%;
-                flex-wrap: wrap;
-                div {
-                    padding: 0.5%;
-                    font-size: 1.3vw;
-                    font-size: 1.2vh;
-                    //  width: 50%;
-                    height: 15%;
-                    img {
-                        height: 100%;
-                        width: fit-content;
-                    }
-                }
-            }
-        }
-        .lifePath {
-            height: 100%;
-            width: 48%;
-            padding: 0.5%;
-            font-size: 1.5vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-           
-
-            .vertSeparator {
+            .personalInfo {
+                width: 48%;
                 background: black;
-                width: 1vw;
-                height: 10vh;
-                margin-left: 80%;
-            }
-
-            .separator2 {
-                background: black;
-                height: 3px;
-                width: 100%;
-                margin-top: 1%;
-            }
-
-            .education {
-               
-                margin-top: 0.5vh;
-            }
-
-            .skills {
-               
-                ul {
+                color: white;
+                padding: 5px;
+                position: relative;
+              
+                .photo_name {
+                    width: 100%;
+                    height: 40%;
                     display: flex;
-                    flex-wrap: wrap;
-
-                    li {
+                    object-fit: cover;
+                    .fullName {
+                        padding: 5px;
+                        height: 90%;
+                        width: 45%;
+                        font-size: 2.2vw;
+                        align-items: center;
+                    }
+                    .photo {
                         width: 50%;
+                        height: 100%;
 
-                        list-style-type: none;
+                        img {
+                            width: 100%;
+                            height: 100%;
+
+                            object-fit: cover;
+                        }
+                    }
+                }
+
+                .about {
+                  
+                    width: 100%;
+                    height: 30%;
+                    text-align: left;
+                   
+                    font-size: 1.5vw;
+                    word-break: break-all;
+                    overflow-y: auto;
+                    // object-fit:fill;
+                }
+
+                .separator {
+                    background: white;
+                    height: 3px;
+                    width: 35%;
+                    margin: 5px;
+                }
+
+                .contactInfo {
+                    width: 100%;
+                    height: 30%;
+                    flex-wrap: wrap;
+                    div {
+                        padding: 0.5%;
+                     
+                        font-size: 1.2vw;
+                       
+                        height: 15%;
+                        img {
+                            height: 80%;
+                            width: fit-content;
+                        }
+                    }
+                }
+            }
+            .lifePath {
+                height: 100%;
+                width: 48%;
+                padding: 0.5%;
+                font-size: 1.5vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .header {
+                    display: flex;
+                    .vertSeparator {
+                        background: black;
+                        width: 1.5vw;
+                        height: 100%;
+                        margin-left: 75%;
+                        margin-right: 5%;
+                    }
+                    .btn {
+                      
+                        width: 100%;
+                        height: 4vw;
+                        background: black;
+                        color: white;
+                
+                        font-size: 1.5vw;
+                        -moz-transform: rotate(-90deg);
+                        -ms-transform: rotate(-90deg);
+                        -o-transform: rotate(-90deg);
+                        -webkit-transform: rotate(-90deg);
+                    }
+                }
+
+                .separator2 {
+                    background: black;
+                    height: 5px;
+                    width: 100%;
+                    margin-top: 1%;
+                }
+
+                .education {
+                 overflow-y: auto;
+                    .title {
+                         margin: 0;
+                       margin-right: 5px;
+                        position: fixed;
+                        background: white;
+                        width: 90%;
+                       
+                    
+                      margin-bottom: 10px;
+                      border-bottom: black solid 2px;
+                    }
+                    
+                    div{
+                      margin-top: 50px;
+                    }
+                }
+
+                .skills {
+                   
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        li {
+                            width: 50%;
+
+                            list-style-type: none;
+                        }
                     }
                 }
             }
         }
-    }
 
-    .links {
-        background: black;
-        display: flex;
-        height: 10%;
-
-        padding: 5px;
-        a {
+        .links {
+            background: black;
             display: flex;
-            width: 33.3%;
-            height: 100%;
+            height: 10%;
 
-            img {
-                margin: 0 auto;
+            padding: 5px;
+            a {
+                display: flex;
+                width: 33.3%;
+                height: 100%;
+
+                img {
+                    margin: 0 auto;
+                }
             }
         }
     }
 }
+
+
+
+@media (orientation:portrait) {
+    .general {
+        height: 100vh;
+        width: 100vw;
+        padding: 2px;
+        .userInfo {
+            display: flex;
+            height: 85%;
+            padding: 5px;
+            .personalInfo {
+                width: 48%;
+                background: black;
+                color: white;
+                padding: 5px;
+                position: relative;
+             
+                .photo_name {
+                    width: 100%;
+                    height: 40%;
+                    display: flex;
+                    object-fit: cover;
+                    .fullName {
+                        padding: 5px;
+                        height: 90%;
+                        width: 45%;
+                        font-size: 1.8vh;
+                        align-items: center;
+                    }
+                    .photo {
+                        width: 50%;
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+
+                            object-fit: cover;
+                        }
+                    }
+                }
+
+                .about {
+                    //  z-index: 1;
+                    width: 100%;
+                    height: 30%;
+                    text-align: left;
+                    font-size: 1.5vh;
+                    word-break: break-all;
+                    overflow-y: auto;
+                }
+
+                .separator {
+                    background: white;
+                    height: 3px;
+                    width: 35%;
+                    margin: 5px;
+                }
+
+                .contactInfo {
+                    width: 100%;
+                    height: 30%;
+                    flex-wrap: wrap;
+                    div {
+                        padding: 0.5%;
+                        font-size:1.4vh;
+                        height: 15%;
+                        img {
+                            height: 80%;
+                            width: fit-content;
+                        }
+                    }
+                }
+            }
+            .lifePath {
+                height: 100%;
+                width: 48%;
+                padding: 0.5%;
+                font-size: 1.8vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .header {
+                    display: flex;
+                    .vertSeparator {
+                        background: black;
+                        width: 1.5vw;
+                        height: 100%;
+                        margin-left: 75%;
+                        margin-right: 5%;
+                    }
+                    
+                    .btn {
+
+                        width: 100%;
+                        height: 4vw;
+                        background: black;
+                        color: white;
+                        font-size: 1.5vh;
+                        -moz-transform: rotate(-90deg);
+                        -ms-transform: rotate(-90deg);
+                        -o-transform: rotate(-90deg);
+                        -webkit-transform: rotate(-90deg);
+                     
+                      
+                    }
+                    @media(max-height:670px){
+
+                        
+                      .btn{ 
+                            width: 100%;
+                          height: 5vw;
+                          background: black;
+                          color: white;
+                          font-size: 1.5vh;
+                          -moz-transform: rotate(0deg);
+                          -ms-transform: rotate(0deg);
+                          -o-transform: rotate(0deg);
+                          -webkit-transform: rotate(0deg);
+                      }
+                       
+
+                  }
+                }
+
+                .separator2 {
+                    background: black;
+                    height: 5px;
+                    width: 100%;
+                    margin-top: 1%;
+                }
+
+                .education {
+                 overflow-y: auto;
+                    .title {
+                         margin: 0;
+                       margin-right: 5px;
+                        position: fixed;
+                        background: white;
+                        width: 90%;
+                      margin-bottom: 10px;
+                      border-bottom: black solid 2px;
+                    }
+                    div{
+                      margin-top: 50px;
+                    }
+                }
+
+                .skills {
+                   
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+padding: 5px;
+                        li {
+                            width: 50%;
+text-align: left;
+                            list-style-type: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .links {
+            background: black;
+            display: flex;
+            height: 10%;
+
+            padding: 5px;
+            a {
+                display: flex;
+                width: 33.3%;
+                height: 100%;
+
+                img {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+

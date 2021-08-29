@@ -8,8 +8,9 @@ const LifePath = (props) => {
     return (
 
         <div className="lifePath">
-
-            <div className="vertSeparator"></div>
+<div className="header"> <div className="vertSeparator"></div>
+<input className="btn"   translate="no" value="Save"  type="button"></input></div>
+           
 
             <div className="separator2"></div>
 

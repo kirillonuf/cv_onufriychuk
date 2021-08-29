@@ -1,6 +1,9 @@
 
 const about=`
-kdpfbv
-`;
+Lorem   Lorem LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+        LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+        LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLorem
+     `;
 
     export default about;
+

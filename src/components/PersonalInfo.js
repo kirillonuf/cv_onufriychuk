@@ -12,6 +12,15 @@ const PersonalInfo = (props) => {
 
         <div className="personalInfo">
 
+
+<div class="container">
+  <div class="back">
+       <div class="front"></div>
+  </div>
+  
+ 
+</div>
+
             <div className="photo_name">
 
                  <div className="photo">
@@ -21,8 +30,11 @@ const PersonalInfo = (props) => {
                 <div className="fullName">
 
                     <div>
-                        <b>{data.firstName} {data.lastName} <br /> {age}</b><br />
-                        {data.position}
+                        <div>{data.firstName}</div>
+                        <div>{data.lastName}</div>
+                        <div>{age}</div>
+                        <div>{data.position}</div>
+                        
                     </div>
 
                 </div>
@@ -34,7 +46,8 @@ const PersonalInfo = (props) => {
 
             <div className="about">
                 <h3>About Me:</h3>
-                {aboutMe}
+                <div className="description"> {aboutMe}</div>
+        
             </div>
             <div className="separator"></div>
 
