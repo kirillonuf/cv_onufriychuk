@@ -251,7 +251,7 @@
                     //  flex-wrap: wrap;
                     .description {
                         display: flex;
-
+                        display:-webkit-box;
                         padding: 0.5%;
 
                         font-size: 1.2vw;
