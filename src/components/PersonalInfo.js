@@ -13,13 +13,13 @@ const PersonalInfo = (props) => {
         <div className="personalInfo">
 
 
-<div class="container">
+{/* <div class="container">
   <div class="back">
        <div class="front"></div>
   </div>
   
  
-</div>
+</div> */}
 
             <div className="photo_name">
 
