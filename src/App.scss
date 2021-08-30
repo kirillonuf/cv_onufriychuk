@@ -250,13 +250,12 @@
                     height: 30%;
                     //  flex-wrap: wrap;
                     .description {
-                        display: flex;
-                       
-                        padding: 0.5%;
-                       
-                        font-size: 1.2vw;
                         height: 23%;
                         width: 50%;
+                        
+                        padding: 0.5%;
+                        font-size: 1.2vw;
+                         display: flex; 
                         align-items: flex-start;
                         .picture {
                             height: 100%;
@@ -267,7 +266,7 @@
                                 object-fit: cover;
                                 height: 100%;
                                 width: auto;
-                                padding: auto;
+                                
                             }
                         }
                     }
@@ -427,13 +426,12 @@
                     height: 30%;
                     // flex-wrap: wrap;
                     .description {
-                        display: flex;
-
                         padding: 0.5%;
 
                         font-size: 1.2vh;
                         height: 23%;
                         width: 100%;
+                        display: flex;
                         align-items: flex-start;
 
                         .picture {
@@ -441,10 +439,11 @@
                             width: 20%;
                             margin-right: 10px;
                             img {
-                                object-fit: cover;
+                               
                                 height: 100%;
                                 width: auto;
                                 padding: auto;
+                                 object-fit: cover;
                             }
                         }
                     }
