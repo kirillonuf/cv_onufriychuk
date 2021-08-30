@@ -263,7 +263,7 @@
                             margin-right: 10px;
                          //   align-items: flex-start;
                             img {
-                                object-fit: cover;
+                                object-fit: contain;
                                 height: 100%;
                                 width: 100%;
                                 
@@ -443,7 +443,7 @@
                                 height: 100%;
                                 width: 100%;
                                 
-                                 object-fit: cover;
+                                 object-fit: contain;
                             }
                         }
                     }
