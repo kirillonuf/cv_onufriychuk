@@ -257,12 +257,12 @@
                         font-size: 1.2vw;
                         height: 23%;
                         width: 50%;
-                        align-items: center;
+                        align-items: flex-start;
                         .picture {
                             height: 100%;
                             width: auto;
                             margin-right: 10px;
-                            align-items: flex-start;
+                         //   align-items: flex-start;
                             img {
                                 object-fit: cover;
                                 height: 100%;
@@ -434,7 +434,7 @@
                         font-size: 1.2vh;
                         height: 23%;
                         width: 100%;
-                        align-items: center;
+                        align-items: flex-start;
 
                         .picture {
                             height: 100%;
