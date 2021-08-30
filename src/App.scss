@@ -305,10 +305,12 @@ template {
                      
                         font-size: 1.2vw;
                        
-                        height: 15%;
+                        height: 15%; 
+                         display: -webkit-box;
                         img {
                             height: 80%;
-                            width:height;
+                            width: auto;
+                          
                         }
                     }
                 }
