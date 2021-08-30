@@ -308,7 +308,7 @@ template {
                         height: 15%;
                         img {
                             height: 80%;
-                            width: auto;
+                            width:min-content;
                         }
                     }
                 }
@@ -397,7 +397,7 @@ template {
                 display: flex;
                
                 width: 33.3%;
-                height:auto;
+                height: 100%;
 
                 img {
                     margin: 0 auto;
