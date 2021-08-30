@@ -9,10 +9,11 @@
     "position": "Front_End Developer",
     "gitHub": "https://github.com/kirillonuf",
     "skills": [
-        "JS",
-        "React",
-        "Node",
+        "Javascript",
+        "React.js",
+        "Node.js",
         "CSS",
-        "HTML5"
+        "HTML5",
+        "SQL Express"
     ]
 }
