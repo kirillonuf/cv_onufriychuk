@@ -306,13 +306,11 @@ template {
                         font-size: 1.2vw;
                        
                         height: 15%; 
-                        display: -webkit-box;
-                        display: flex;
-                        flex-wrap: nowrap;
+                       
                         img {
                             height: 80%;
                             width: auto;
-                          
+                            object-fit: contain;
                         }
                     }
                 }
