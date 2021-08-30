@@ -306,11 +306,11 @@ template {
                         font-size: 1.2vw;
                        
                         height: 15%; 
-                       
+                        object-fit: contain;
                         img {
                             height: 80%;
                             width: auto;
-                            object-fit: contain;
+                           
                         }
                     }
                 }
