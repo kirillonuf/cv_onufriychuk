@@ -239,7 +239,7 @@
                 }
 
                 .separator {
-                    background: rgb(255, 0, 0);
+                    background: rgb(255, 255, 255);
                     height: 3px;
                     width: 35%;
                     margin: 5px;
@@ -261,7 +261,7 @@
                             height: 100%;
                             width: height;
                             margin-right: 10px;
-                            object-fit: contain;
+                            object-fit:scale-down;
                             align-items: flex-start;
                             img {
                            //     object-fit: contain;
@@ -438,7 +438,8 @@
                         .picture {
                             height: 100%;
                             width: height;
-                            margin-right: 10px;object-fit: contain;
+                            margin-right: 10px;
+                            object-fit: scale-down;
                             img {
                                
                                 height: 100%;
