@@ -186,7 +186,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (orientation: landscape) {
+@media  (orientation: landscape) {
     .general {
         height: 100vh;
         width: 100vw;
@@ -363,7 +363,7 @@
     }
 }
 
-@media screen and (orientation: portrait) {
+@media  (orientation: portrait) {
     .general {
         height: 100vh;
         width: 100vw;
