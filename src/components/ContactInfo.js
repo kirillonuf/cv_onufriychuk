@@ -19,7 +19,7 @@ const ContactInfo = () => {
 
             <div className="description">
                 <div className="picture">  <img src={location}></img></div>
-                <div>      {contactData.location}</div>
+                <div className="data">      {contactData.location}</div>
          
             </div>
             <div className="description">
@@ -29,12 +29,12 @@ const ContactInfo = () => {
             </div>
             <div className="description">
                 <div className="picture"> <img src={email}></img></div>
-                <div> {contactData.email}</div>
+                <div className="data"> {contactData.email}</div>
                  
             </div>
             <div className="description">
                 <div className="picture"> <img src={git}></img></div>
-                <div>{contactData.gitHub}</div>
+                <div className="data">{contactData.gitHub}</div>
                   
             </div>
 
