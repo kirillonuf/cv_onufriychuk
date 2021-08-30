@@ -261,9 +261,10 @@
                             height: 100%;
                             width: height;
                             margin-right: 10px;
+                            object-fit: contain;
                          //   align-items: flex-start;
                             img {
-                                object-fit: contain;
+                           //     object-fit: contain;
                                 height: 100%;
                                 width: 100%;
                                 
@@ -437,13 +438,13 @@
                         .picture {
                             height: 100%;
                             width: height;
-                            margin-right: 10px;
+                            margin-right: 10px;object-fit: contain;
                             img {
                                
                                 height: 100%;
                                 width: 100%;
                                 
-                                 object-fit: contain;
+                                 
                             }
                         }
                     }
