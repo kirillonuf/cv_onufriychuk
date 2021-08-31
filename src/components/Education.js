@@ -20,7 +20,7 @@ const Education = () => {
                 </div>
 
                 <div>
-                    <h3>(2019-2021) Сomputer Academy STEP</h3>
+                    <h3>(2019-2021) IT Academy STEP</h3>
                     <p><b>Speciality: </b>Developer</p>
                     <p><b>Qualification: </b>Front End</p>
                 </div>

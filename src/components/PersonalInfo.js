@@ -1,7 +1,7 @@
 //import photo from '../data/images.png'
 import aboutMe from "../data/aboutMe";
 import ContactInfo from "./ContactInfo"
-import image from "../data/avatarka.jpg"
+import image from "../data/profilePhoto.jpg"
 const PersonalInfo = (props) => {
 
     const data = props.data;
