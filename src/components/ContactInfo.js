@@ -5,12 +5,7 @@ import email from "../logo/mail.png";
 import git from "../logo/github-icon-logo-png-transparent.png"
 
 const contactData = data;
-////console.log(contactData)
 
-
-//const phone = "../logo/telephone.png";
-
-//console.log(email)
 const ContactInfo = () => {
 
     return (
@@ -18,24 +13,31 @@ const ContactInfo = () => {
         <div className="contactInfo">
 
             <div className="description">
+
                 <div className="picture">  <img src={location}></img></div>
                 <div className="data">      {contactData.location}</div>
-         
+
             </div>
+
             <div className="description">
+
                 <div className="picture"> <img src={phone}></img></div>
                 <div className="data">{contactData.phoneNumber}</div>
-                  
+
             </div>
+
             <div className="description">
+
                 <div className="picture"> <img src={email}></img></div>
                 <div className="data"> {contactData.email}</div>
-                 
+
             </div>
+
             <div className="description">
+
                 <div className="picture"> <img src={git}></img></div>
                 <div className="data">{contactData.gitHub}</div>
-                  
+
             </div>
 
         </div>

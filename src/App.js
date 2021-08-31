@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 
 import './App.scss';
 import data from './data/data.json'
@@ -6,11 +5,7 @@ import PersonalInfo from './components/PersonalInfo';
 import LifePath from './components/LifePath';
 import { Links } from './components/Links';
 
-
- const App = () => {
-
-
-
+const App = () => {
 
     return (
 
@@ -19,16 +14,12 @@ import { Links } from './components/Links';
             <div className="userInfo">
 
                 <PersonalInfo data={data} />
+
                 <LifePath data={data} />
 
             </div>
 
-            
-
-                <Links />
-
-            
-
+            <Links />
 
         </div>
 
