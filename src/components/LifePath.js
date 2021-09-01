@@ -15,15 +15,19 @@ const copy = () => {
 
             orientation: screenWidth > screenHeight ? "l" : "p",
 
-            unit: "px",
+            unit:"px",
 
-            format: [screenWidth, screenHeight]
+            format: [screenWidth, screenHeight],
+
+            hotfixes:"px_scaling",
+
+            precision:16
 
         });
 
         docPDF.addImage(canvas, 'JPEG', 0, 0, screenWidth, screenHeight);
 
-        docPDF.output('save', 'cv-onufriychuk.pdf');
+        docPDF.save('cv-onufriychuk.pdf');
 
     });
 
@@ -41,7 +45,7 @@ const LifePath = (props) => {
 
                 <div className="vertSeparator"></div>
 
-                <input className="btn" onClick={copy} translate="no" value="Copy Link" type="button"></input>
+                <input className="btn" onClick={copy} translate="no" value="Save" type="button"></input>
 
             </div>
 
