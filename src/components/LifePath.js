@@ -1,21 +1,31 @@
 
 import Education from "./Education";
 import Skills from "./Skills";
-
+import html2canvas from 'html2canvas';
+import { jsPDF } from "jspdf";
 const copy = () => {
 
-    let dummy = document.createElement('input'),
-        text = document.URL;
 
-    document.body.appendChild(dummy);
+    html2canvas(document.body).then(function (canvas) {
 
-    dummy.value = text;
+        const screenWidth = window.screen.width;
+        const screenHeight = window.screen.height;
 
-    dummy.select();
+        var docPDF = new jsPDF({
 
-    document.execCommand('copy');
+            orientation: screenWidth > screenHeight ? "l" : "p",
 
-    document.body.removeChild(dummy);
+            unit: "px",
+
+            format: [screenWidth, screenHeight]
+
+        });
+
+        docPDF.addImage(canvas, 'JPEG', 0, 0, screenWidth, screenHeight);
+
+        docPDF.output('save', 'cv-onufriychuk.pdf');
+
+    });
 
 };
 

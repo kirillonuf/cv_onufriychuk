@@ -9,7 +9,7 @@ const Education = () => {
 
             <div>
 
-                <p><h3>(2006-2009) Zaporizhzhya Construction College</h3></p>
+                <h3>(2006-2009) Zaporizhzhya Construction College</h3>
                 <p><b>Speciality: </b>Maintenance and repair of cars and engines</p>
                 <p><b>Qualification: </b>Technician - Mechanic</p>
 

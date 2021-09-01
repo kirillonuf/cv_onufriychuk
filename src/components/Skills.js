@@ -1,10 +1,11 @@
-//import { element } from "prop-types";
-import data from "../data/data.json"
-const Skills = () => {
-    const skills = data.skills;
-    console.log(skills)
-    return (
 
+import data from "../data/data.json"
+
+const Skills = () => {
+
+    const skills = data.skills;
+  
+    return (
 
         <div className="skills">
 
@@ -21,10 +22,7 @@ const Skills = () => {
 
             </ul>
 
-
         </div>
-
-
 
     );
 
