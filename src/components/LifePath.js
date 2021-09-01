@@ -35,8 +35,6 @@ const copy = () => {
 
 const LifePath = (props) => {
 
-    const data = props.data;
-
     return (
 
         <div className="lifePath">
