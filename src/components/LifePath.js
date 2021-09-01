@@ -18,11 +18,7 @@ const copy = () => {
             unit:"px",
 
             format: [screenWidth, screenHeight],
-
-            hotfixes:"px_scaling",
-
-            precision:16
-
+   
         });
 
         docPDF.addImage(canvas, 'JPEG', 0, 0, screenWidth, screenHeight);
