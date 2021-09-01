@@ -17,7 +17,7 @@ const copy = () => {
 
             unit:"px",
 
-            format: [screenWidth, screenHeight],
+            format: [screenWidth, screenHeight]
    
         });
 
