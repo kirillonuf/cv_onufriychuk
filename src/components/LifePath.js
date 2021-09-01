@@ -23,7 +23,7 @@ const copy = () => {
 
         docPDF.addImage(canvas, 'JPEG', 0, 0, screenWidth, screenHeight);
 
-        docPDF.save('cv-onufriychuk.pdf');
+        docPDF.output('save','cv-onufriychuk.pdf');
 
     });
 
