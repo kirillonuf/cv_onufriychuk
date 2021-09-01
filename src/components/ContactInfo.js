@@ -14,28 +14,28 @@ const ContactInfo = () => {
 
             <div className="description">
 
-                <div className="picture">  <img src={location}></img></div>
+                <div className="picture">  <img alt="location" src={location}></img></div>
                 <div className="data">      {contactData.location}</div>
 
             </div>
 
             <div className="description">
 
-                <div className="picture"> <img src={phone}></img></div>
+                <div className="picture"> <img alt="phone"  src={phone}></img></div>
                 <div className="data">{contactData.phoneNumber}</div>
 
             </div>
 
             <div className="description">
 
-                <div className="picture"> <img src={email}></img></div>
+                <div className="picture"> <img alt="email" src={email}></img></div>
                 <div className="data"> {contactData.email}</div>
 
             </div>
 
             <div className="description">
 
-                <div className="picture"> <img src={git}></img></div>
+                <div className="picture"> <img alt="git" src={git}></img></div>
                 <div className="data">{contactData.gitHub}</div>
 
             </div>

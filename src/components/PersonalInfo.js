@@ -17,7 +17,7 @@ const PersonalInfo = (props) => {
 
                 <div className="photo">
 
-                    <img src={image}></img>
+                    <img alt="image" src={image}></img>
 
                 </div>
 
