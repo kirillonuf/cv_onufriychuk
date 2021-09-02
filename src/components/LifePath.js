@@ -8,8 +8,8 @@ const copy = () => {
     console.log(url);
 //   document.body.appendChild()
 
-    html2canvas(document.body).then(function (canvas) {
-
+    html2canvas(document.body,{scale:10} ).then(function (canvas) {
+     
         const screenWidth = window.screen.width;
         const screenHeight = window.screen.height;
         const url = document.URL;
