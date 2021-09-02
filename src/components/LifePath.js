@@ -54,7 +54,7 @@ const copy = () => {
 
              unit: "mm",
 
-            format: "a4",
+            format:[screenWidth, screenHeight],
             compress: true,
              putOnlyUsedFonts:true,
              precision: 16
