@@ -45,8 +45,8 @@ const copy = () => {
 
 let width=0;
 let height=0;
-let top=0;
-let left=0;
+// let top=0;
+// let left=0;
         let docPDF = new jsPDF(
              {
 
@@ -66,17 +66,17 @@ let left=0;
       
 if(screenWidth > screenHeight){
     
-    width=310;
+    width=280;
     height=210;
     // left=20;
     // top=0;
 }else{
-    width=210;
+    width=280;
     height=310;
     // left=0;
     // top=20;
 }
-        docPDF.addImage( canvas, 'JPEG',left,top,width,height);
+        docPDF.addImage( canvas, 'JPEG',0,0,width,height);
         // , 'JPEG', 0, 0,screenWidth, screenHeight
         docPDF.output('save', 'cv-onufriychuk.pdf');
 
