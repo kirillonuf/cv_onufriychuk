@@ -54,10 +54,10 @@ let height=0;
 
              unit: "mm",
 
-            format: "a4",
+            format: "a4"
           //  compress: true,
-            putOnlyUsedFonts:true,
-            precision: 16,
+            // putOnlyUsedFonts:true,
+            // precision: 16,
            
             // [screenWidth, screenHeight]
 
@@ -71,8 +71,8 @@ if(screenWidth > screenHeight){
     // left=20;
     // top=0;
 }else{
-    width=280;
-    height=310;
+    width=210;
+    height=270;
     // left=0;
     // top=20;
 }
