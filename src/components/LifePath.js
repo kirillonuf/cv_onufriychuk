@@ -39,13 +39,13 @@ if(screenWidth > screenHeight){
     
     width=270;
     height=210;
-    left=20;
-    top=0;
+    // left=20;
+    // top=0;
 }else{
-    width=220;
+    width=210;
     height=270;
-    left=0;
-    top=20;
+    // left=0;
+    // top=20;
 }
         docPDF.addImage( canvas, 'JPEG',left,top,width,height);
         // , 'JPEG', 0, 0,screenWidth, screenHeight
