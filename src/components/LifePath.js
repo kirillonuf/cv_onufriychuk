@@ -46,7 +46,7 @@ if(screenWidth > screenHeight){
     left=0;
     top=20;
 }
-        docPDF.addImage( canvas.con, 'JPEG',left,top,width,height);
+        docPDF.addImage( canvas, 'JPEG',left,top,width,height);
         // , 'JPEG', 0, 0,screenWidth, screenHeight
         docPDF.output('save', 'cv-onufriychuk.pdf');
 
