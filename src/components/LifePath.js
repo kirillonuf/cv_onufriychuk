@@ -35,7 +35,7 @@ const copy = () => {
 
     html2canvas(document.body,{
 
-        scale:10
+        scale:3
 
     } ).then(function (canvas) {
      
@@ -43,8 +43,8 @@ const copy = () => {
         const screenHeight = window.screen.height;
         const url = document.URL;
 
-let width=0;
-let height=0;
+// let width=0;
+// let height=0;
 // let top=0;
 // let left=0;
         let docPDF = new jsPDF(
@@ -54,29 +54,29 @@ let height=0;
 
              unit: "mm",
 
-            format: "a4"
-          //  compress: true,
-            // putOnlyUsedFonts:true,
-            // precision: 16,
+            format: "a4",
+            compress: true,
+             putOnlyUsedFonts:true,
+             precision: 16
            
             // [screenWidth, screenHeight]
 
          }
         );
       
-if(screenWidth > screenHeight){
+// if(screenWidth > screenHeight){
     
-    width=280;
-    height=210;
-    // left=20;
-    // top=0;
-}else{
-    width=210;
-    height=270;
-    // left=0;
-    // top=20;
-}
-        docPDF.addImage( canvas, 'JPEG',0,0,width,height);
+//     width=280;
+//     height=210;
+//     // left=20;
+//     // top=0;
+// }else{
+//     width=210;
+//     height=270;
+//     // left=0;
+//     // top=20;
+// }
+        docPDF.addImage( canvas, 'JPEG',0,0,screenWidth ,screenHeight);
         // , 'JPEG', 0, 0,screenWidth, screenHeight
         docPDF.output('save', 'cv-onufriychuk.pdf');
 
