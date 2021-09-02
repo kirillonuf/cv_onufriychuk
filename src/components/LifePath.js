@@ -26,9 +26,10 @@ let left=0;
              unit: "mm",
 
             format: "a4",
-            compress: true,
-            precision: 1,
-            hotfixes: ['px_scaling']
+          //  compress: true,
+            putOnlyUsedFonts:true,
+            precision: 16,
+           
             // [screenWidth, screenHeight]
 
          }
