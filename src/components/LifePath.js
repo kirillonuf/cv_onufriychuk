@@ -36,7 +36,7 @@ const copy = () => {
     
     html2canvas(document.body, {
 
-        scale: 10
+        scale: 4
 
     }).then(function (canvas) {
 
