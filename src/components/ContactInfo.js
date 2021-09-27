@@ -22,7 +22,7 @@ const ContactInfo = () => {
             <div className="description">
 
                 <div className="picture"> <img alt="phone"  src={phone}></img></div>
-                <div className="data"><a  href="tel:${contactData.phoneNumber}"> {contactData.phoneNumber} </a></div>
+                <div className="data"><a  href="tel: +380969390280"> {contactData.phoneNumber} </a></div>
 
             </div>
 
