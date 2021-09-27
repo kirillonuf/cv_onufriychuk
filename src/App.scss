@@ -179,6 +179,12 @@ template {
     box-sizing: border-box;
 }
 
+//  body{
+//      width: 297mm;
+
+//      height: auto;
+//  }
+
 @media (orientation: landscape) {
     .general {
         height: 100vh;
@@ -242,11 +248,17 @@ template {
                 }
 
                 .contactInfo {
-                    width: 100%;
-                    height: 30%;
 
+                  
+                    width: 100%;
+                    height: 30vh;
+                    a {
+                        text-decoration: none;
+
+                        color: white;
+                    }
                     .description {
-                        height: 20%;
+                       // height: 20%;
                         width: 50%;
                         padding: 0.5%;
                         font-size: 1.2vw;
@@ -293,7 +305,7 @@ template {
 
                     .btn {
                         width: 100%;
-                        height:auto;
+                        height: auto;
                         background: linear-gradient(to right, #000000, #252524);
                         color: white;
                         font-size: 1.4vw;
@@ -305,7 +317,6 @@ template {
 
                     .btn:active {
                         background: rgb(78, 74, 74);
-                        
                     }
                 }
 
@@ -323,7 +334,7 @@ template {
                     .title {
                         margin: 0;
                         margin-right: 5px;
-                       // position: fixed;
+                        // position: fixed;
                         background: white;
                         width: 90%;
                         margin-bottom: 10px;
@@ -336,13 +347,16 @@ template {
                 }
 
                 .skills {
+                    margin-top:  10vh;
                     ul {
                         display: flex;
                         flex-wrap: wrap;
-
                         li {
                             width: 50%;
                             list-style-type: none;
+
+                            font-size: 1.5vw;
+                            font-weight: bold;
                         }
                     }
                 }
@@ -433,7 +447,11 @@ template {
                 .contactInfo {
                     width: 100%;
                     height: 30%;
+                    a {
+                        text-decoration: none;
 
+                        color: white;
+                    }
                     .description {
                         padding: 0.5%;
                         font-size: 1.2vh;
@@ -480,13 +498,13 @@ template {
                     }
 
                     .btn {
-                         width: 100%;
+                        width: 100%;
                         height: auto;
                         background: linear-gradient(to right, #000000, #252524);
                         color: white;
                         font-size: 1.4vh;
-                      
-@media (max-height: 670px) {
+
+                        @media (max-height: 670px) {
                             padding: 0;
                             margin: 0;
                         }
@@ -511,7 +529,7 @@ template {
                     .title {
                         margin: 0;
                         margin-right: 5px;
-                    //    position: fixed;
+                        //    position: fixed;
                         background: white;
                         width: 90%;
                         margin-bottom: 10px;
@@ -524,15 +542,19 @@ template {
                 }
 
                 .skills {
+                   // margin-top:  2vw;
                     ul {
                         display: flex;
                         flex-wrap: wrap;
                         padding: 5px;
 
                         li {
+                            padding: 5px;
                             width: 50%;
                             text-align: left;
                             list-style-type: none;
+                            font-size: 1.5vh;
+                            font-weight: bold;
                         }
                     }
                 }

@@ -22,7 +22,7 @@ const ContactInfo = () => {
             <div className="description">
 
                 <div className="picture"> <img alt="phone"  src={phone}></img></div>
-                <div className="data">{contactData.phoneNumber}</div>
+                <div className="data"><a  href="tel:${contactData.phoneNumber}"> {contactData.phoneNumber} </a></div>
 
             </div>
 
@@ -36,7 +36,7 @@ const ContactInfo = () => {
             <div className="description">
 
                 <div className="picture"> <img alt="git" src={git}></img></div>
-                <div className="data">{contactData.gitHub}</div>
+                <div className="data"><a  href={contactData.gitHub}   >{contactData.gitHub}</a></div>
 
             </div>
 
